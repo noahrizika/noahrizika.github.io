@@ -1,0 +1,34 @@
+#office-hours-table {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#office-hours-table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#office-hours-table caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+#office-hours-table th {
+    padding: 10px;
+    /* background-color: #f2f2f2; */
+    border: 1px solid #ddd;
+}
+
+#office-hours-table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+#office-hours-table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
