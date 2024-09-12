@@ -182,8 +182,14 @@ section {
     text-align: center;
 }
 
+.section__text__ohabout {
+    align-self: center;
+    text-align: center;
+    min-width: 250px;
+}
+
 .section__text p {
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .section__text__p1 {
@@ -193,6 +199,11 @@ section {
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
+}
+
+.section__text__p2oh {
+    font-size: 1.75rem;
+    /* margin-bottom: 1rem; */
 }
 
 .title {
