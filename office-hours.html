@@ -17,34 +17,66 @@
           <li><a href="./index.html#about">About</a></li>
           <li><a href="./index.html#experience">Experience</a></li>
           <li><a href="./index.html#projects">Projects</a></li>
+          <li>
+            <a href="#office-hours" onclick="location.href='office-hours.html'"
+              >Office Hours</a
+            >
+          </li>
           <li><a href="./index.html#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <div id="office-hours-table">
-      <table>
-        <caption>
-          Office Hours - SHS 201, Fall 2024
-        </caption>
-        <tr>
-          <th>Monday</th>
-          <th>Tuesday</th>
-          <th>Wednesday</th>
-          <th>Thursday</th>
-          <th>Friday</th>
-        </tr>
-        <tr>
-          <th>10-12:30pm</th>
-          <th>1:30-4:30pm</th>
-          <th>10-12:30pm</th>
-          <th>12:30-1:15pm & 3:30-5:30pm</th>
-          <th>By Appointment</th>
-        </tr>
-      </table>
-      <div>
-        If none of these hours work for you, please email me
-        (nrizika@middlebury.edu) to schedule a time to meet.
+    <nav id="hamburger-nav">
+      <div class="logo">Noah Rizika</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li>
+            <a href="#office-hours" onclick="location.href='office-hours.html'"
+              >Office Hours</a
+            >
+          </li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
       </div>
-    </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Noah Rizika profile picture" />
+      </div>
+      <div class="section__text__ohabout">
+        <h3 class="section__text__p2oh">Noah Rizika, Assistant in Instruction</h1>
+        <br>
+        <p class="section__text__p1oh"><strong>Office: </strong> 75 Shannon Street 201</p>
+        <br>
+        <p class="section__text__p1oh"><strong>Office Hours: </strong>M: 10AM-12:30PM, T: 1:30PM-4:30PM, W: 10AM-12:30PM, TR: 12:15PM-1:15PM & 3:30PM-5:30PM, F: By Appointment (email me!)</p>
+        <br>
+        <p class="section__text__p1oh"><strong>Email: </strong>nrizika@middlebury.edu</p>
+      </div>
+      <br>
+      <div class="section__text__ohabout">
+        <p>
+          I am holding office hours Monday through Friday. Feel
+          free to drop in to ask any questions, or email me for a zoom link.
+        </p>
+        <p>I can comfortably offer help in 105, 145, 146, 200, 201 and 202.</p>
+        <p>I can also work together with you to solve problems in 315.</p>
+        <p>
+          It might be helpful to send me an email with the topics/questions you
+          are struggling with so I can help you more efficiently.
+        </p>
+        <p>
+          You probably know more about these topics than me: 302, 318, 333, 467
+        </p>
+      </div>
+      <br><br>
+    </section>
   </body>
 </html>
