@@ -1,1 +1,0 @@
-# noahrizika.github.io
